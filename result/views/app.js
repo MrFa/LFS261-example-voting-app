@@ -1,6 +1,7 @@
 var app = angular.module('catsvsdogs', []);
 var socket = io.connect();
 // this is a comment that was added to try and trigger a build
+//second try
 var bg1 = document.getElementById('background-stats-1');
 var bg2 = document.getElementById('background-stats-2');
 
