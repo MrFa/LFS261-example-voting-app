@@ -1,0 +1,13 @@
+services{
+  vote:
+    image: whalecoder/vote:latest
+    ports:
+      - 5000:80
+  result:
+    image: whalecoder/result:latest
+    ports:
+      - 5001:80
+  worker:
+    image: whalecoder/worker:latest
+
+}
